@@ -1,0 +1,46 @@
+/* Modify bootstrapnav class:set up navigation bar text, color and allignment */
+.nav{
+    /* display: inline-block; */
+    font-size: 32px;
+    /* display: flex; */
+    justify-content: space-evenly;
+    /* color:white; */
+    align-items: center;
+}
+
+/* In nav bar: Set up display and font size for portfolio's owner*/
+.navbar-text{
+    display: inline-block;
+    font-size: 48px;
+    display: flex;
+}
+
+/* Style: Changing the color of "portfolio" in header*/
+.navbar-subtext {
+    color:red;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    left: 50%;
+    bottom: 10%;
+    /* center */
+    transform: translate(-50%, -50%);
+}
+
+#portfolio-image{
+    border-radius: 80%; 
+    float:none; 
+    /* width:80px;
+    height:80px; */
+}
+.card,.github-button{
+    margin: 2%;
+}
+
+
+
+/* .card-title {
+    margin:1%;
+} */
