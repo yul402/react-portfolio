@@ -7,7 +7,7 @@ function NavTabs({ currentPage, handlePageChange }) {
     <nav>
       {/* <p class="navbar-text">Ying Li<span class="navbar-subtext">'s Portfolio</span></p> */}
       <ul className="nav nav-tabs">
-        <li class="navbar-text">Ying Li<span class="navbar-subtext">'s Portfolio</span></li>
+        <li className="navbar-text">Ying Li<span className="navbar-subtext">'s Portfolio</span></li>
         <li className="nav-item">
           <a
             href="#about-me"

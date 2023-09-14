@@ -10,8 +10,8 @@ function Footer(){
   return(
     <footer>
     {/* <footer className="fixed-bottom"> */}
-        <div class="me-5 d-none d-lg-block">
-            <span>Get connected with us on social networks:</span>
+        <div className="me-5 d-none d-lg-block" style={{fontSize:28}}>
+            <span>Connected with me:</span>
         </div>
         <div className='me-4 icon'>
             <a href="https://github.com/yul402" target="_blank">

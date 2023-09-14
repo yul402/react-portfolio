@@ -1,24 +1,46 @@
 import React from 'react';
+import Resume from '../../assets/files/Ying_Li_Resume.pdf';
 
 export default function Blog() {
   return (
     <div>
-      <h1>Blog Page</h1>
+      <h1>Resume</h1>
       <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
+        <a href={Resume} download="YingLi_Resume">Download Resume</a>
       </p>
+      <div>
+        <h2>Front-end Proficiencies</h2>
+        <ul className="list-group list-group-flush">
+          <li className="list-group-item">HTML</li>
+          <li className="list-group-item">CSS & Bootstrap</li>
+          <li className="list-group-item">JavaScript & JQuery</li>
+          <li className="list-group-item">Responsive Design</li>
+          <li className="list-group-item">React</li>
+          <li className="list-group-item">Vestibulum at eros</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Back-end Proficiencies</h2>
+          <ul className="list-group list-group-flush">
+            <li className="list-group-item">APIs</li>
+            <li className="list-group-item">Node</li>
+            <li className="list-group-item">Express</li>
+            <li className="list-group-item">MySQL & Sequelize</li>
+            <li className="list-group-item">MongoDB & Mongoose</li>
+            <li className="list-group-item">REST</li>
+            <li className="list-group-item">GraphQL</li>
+          </ul>
+      </div>
+      <div>
+        <h2>Data Analytics Proficiencies</h2>
+        <ul className="list-group list-group-flush">
+          <li className="list-group-item">Python</li>
+          <li className="list-group-item">R</li>
+          <li className="list-group-item">SQL</li>
+          <li className="list-group-item">Power BI</li>
+          <li className="list-group-item">Microsoft Office Suite</li>
+        </ul>
+      </div>
     </div>
   );
 }
