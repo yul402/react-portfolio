@@ -1,0 +1,82 @@
+/* Modify bootstrapnav class:set up navigation bar text, color and allignment */
+.nav {
+    /* display: inline-block; */
+    font-size: 32px;
+    /* display: flex; */
+    justify-content: space-evenly;
+    /* color:white; */
+    align-items: center;
+}
+
+/* In nav bar: Set up display and font size for portfolio's owner*/
+.navbar-text {
+    display: inline-block;
+    font-size: 48px;
+    display: flex;
+}
+
+/* Style: Changing the color of "portfolio" in header*/
+.navbar-subtext {
+    color: red;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    bottom: 0;
+    background-color: aqua;
+}
+
+#portfolio-image {
+    border-radius: 80%;
+    float: none;
+    /* width:80px;
+    height:80px; */
+}
+
+.card,
+.github-button {
+    margin: 2%;
+}
+
+.form, img{
+    margin: 2%;
+}
+
+h1 {
+    /* background-color: #C0C0C0; */
+    font-family:verdana;
+    margin-top: 200px;
+    /* position: fixed; */
+    /* width: 100%; */
+    /* justify-content: center; */
+    /* bottom: 0; */
+    /* background-color: aqua; */
+}
+
+#intro {
+    margin:2%;
+    font-size: 28px;
+    text-align: justify;
+
+}
+
+.form input,
+textarea {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.error{
+    border: red 3px solid;
+}
+
+
+/* .card {
+    max-width:600px;
+    max-height:445px;
+} */
