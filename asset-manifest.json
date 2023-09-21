@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/yul402/react-portfolio/static/css/main.e1508556.css",
-    "main.js": "/yul402/react-portfolio/static/js/main.ab43e350.js",
-    "static/media/Ying_Li_Resume.pdf": "/yul402/react-portfolio/static/media/Ying_Li_Resume.e7961b43ca6c1a96813c.pdf",
-    "static/media/MovieVault2.png": "/yul402/react-portfolio/static/media/MovieVault2.972a163a83abf339a842.png",
-    "static/media/FundBetter2.png": "/yul402/react-portfolio/static/media/FundBetter2.bc4c1cec92a80878b620.png",
-    "static/media/Ying_image.png": "/yul402/react-portfolio/static/media/Ying_image.8d391a0c65918ba4058a.png",
-    "static/media/app-placeholder1.jpg": "/yul402/react-portfolio/static/media/app-placeholder1.b82aa5af8c473cacbc3d.jpg",
-    "index.html": "/yul402/react-portfolio/index.html",
-    "main.e1508556.css.map": "/yul402/react-portfolio/static/css/main.e1508556.css.map",
-    "main.ab43e350.js.map": "/yul402/react-portfolio/static/js/main.ab43e350.js.map"
+    "main.css": "/react-portfolio/static/css/main.e1508556.css",
+    "main.js": "/react-portfolio/static/js/main.57b4343e.js",
+    "static/media/Ying_Li_Resume.pdf": "/react-portfolio/static/media/Ying_Li_Resume.e7961b43ca6c1a96813c.pdf",
+    "static/media/MovieVault2.png": "/react-portfolio/static/media/MovieVault2.972a163a83abf339a842.png",
+    "static/media/FundBetter2.png": "/react-portfolio/static/media/FundBetter2.bc4c1cec92a80878b620.png",
+    "static/media/Ying_image.png": "/react-portfolio/static/media/Ying_image.8d391a0c65918ba4058a.png",
+    "static/media/app-placeholder1.jpg": "/react-portfolio/static/media/app-placeholder1.b82aa5af8c473cacbc3d.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.e1508556.css.map": "/react-portfolio/static/css/main.e1508556.css.map",
+    "main.57b4343e.js.map": "/react-portfolio/static/js/main.57b4343e.js.map"
   },
   "entrypoints": [
     "static/css/main.e1508556.css",
-    "static/js/main.ab43e350.js"
+    "static/js/main.57b4343e.js"
   ]
 }
