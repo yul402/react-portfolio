@@ -1,10 +1,7 @@
 /* Modify bootstrapnav class:set up navigation bar text, color and allignment */
 .nav {
-    /* display: inline-block; */
     font-size: 32px;
-    /* display: flex; */
     justify-content: space-evenly;
-    /* color:white; */
     align-items: center;
 }
 
@@ -20,6 +17,7 @@
     color: red;
 }
 
+/* Fix fotter at the bottom  */
 footer {
     display: flex;
     position: fixed;
@@ -29,33 +27,24 @@ footer {
     background-color: aqua;
 }
 
+/* Set up protfolio inage in AboutMe page */
 #portfolio-image {
     border-radius: 80%;
     float: none;
-    /* width:80px;
-    height:80px; */
 }
 
-.card,
-.github-button {
+/* Set up margin */
+.card, .github-button, .form, img {
     margin: 2%;
 }
 
-.form, img{
-    margin: 2%;
-}
-
+/* Set up page title */
 h1 {
-    /* background-color: #C0C0C0; */
     font-family:verdana;
     margin-top: 200px;
-    /* position: fixed; */
-    /* width: 100%; */
-    /* justify-content: center; */
-    /* bottom: 0; */
-    /* background-color: aqua; */
 }
 
+/* Set up introduction paragraph */
 #intro {
     margin:2%;
     font-size: 28px;
@@ -63,6 +52,7 @@ h1 {
 
 }
 
+/* Set up form in Contact page */
 .form input,
 textarea {
     display: block;
@@ -71,12 +61,7 @@ textarea {
     width: 100%;
 }
 
+/* Set up error message in Contact page */
 .error{
     border: red 3px solid;
 }
-
-
-/* .card {
-    max-width:600px;
-    max-height:445px;
-} */

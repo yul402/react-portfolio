@@ -5,11 +5,10 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faStackOverflow } from '@fortawesome/free-brands-svg-icons'
 
 
-// Clickable icon -> open in new tab
+// Clickable app icon: page will be opened in new tab
 function Footer(){
   return(
     <footer>
-    {/* <footer className="fixed-bottom"> */}
         <div className="me-5 d-none d-lg-block" style={{fontSize:28}}>
             <span>Connected with me:</span>
         </div>
