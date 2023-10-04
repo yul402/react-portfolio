@@ -77,11 +77,11 @@ export default function About() {
           <div className="col-sm-6">
             <div className="card">
               <div className="card-body">
-                <h5 className="card-title">Password Generator</h5>
+                <h5 className="card-title">This or That</h5>
                 <img src={appPhoto} alt="portfolio" className = "img-thumbnail"/>
-                <p className="card-text">A web application that can be used to generate strong passwords for users based on their choices.</p>
-                <a href="password-generator-6n4ju2pp5-yul402.vercel.app" className="btn btn-primary">Go to Deployed App </a>
-                <a href="https://github.com/yul402/Password-Generator" className="btn btn-primary github-button">Go to Github</a>
+                <p className="card-text">A web application that can be used to create survey and track vote status.</p>
+                <a href="https://docs.google.com/presentation/d/1z4oX8DVqBtkjEkkfuuiwuq57da2NNAg7tuYzu0d06cQ/edit#slide=id.g286f36e2811_0_149" className="btn btn-primary">Go to Deployed App </a>
+                <a href="https://github.com/yul402/this-or-that" className="btn btn-primary github-button">Go to Github</a>
               </div>
             </div>
           </div>
