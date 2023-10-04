@@ -2,6 +2,7 @@ import React from 'react';
 import appPhoto from '../../assets/images/app-placeholder1.jpg'
 import movieVault from '../../assets/images/MovieVault2.png'
 import fundBetter from '../../assets/images/FundBetter2.png'
+import thisOrThat from '../../assets/images/Survey2.png'
 
 
 export default function About() {
@@ -78,7 +79,7 @@ export default function About() {
             <div className="card">
               <div className="card-body">
                 <h5 className="card-title">This or That</h5>
-                <img src={appPhoto} alt="portfolio" className = "img-thumbnail"/>
+                <img src={thisOrThat} alt="portfolio" className = "img-thumbnail"/>
                 <p className="card-text">A web application that can be used to create survey and track vote status.</p>
                 <a href="https://docs.google.com/presentation/d/1z4oX8DVqBtkjEkkfuuiwuq57da2NNAg7tuYzu0d06cQ/edit#slide=id.g286f36e2811_0_149" className="btn btn-primary">Go to Deployed App </a>
                 <a href="https://github.com/yul402/this-or-that" className="btn btn-primary github-button">Go to Github</a>
